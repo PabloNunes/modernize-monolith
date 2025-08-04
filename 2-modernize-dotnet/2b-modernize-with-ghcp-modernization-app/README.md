@@ -1,4 +1,4 @@
-# 🚀 Migrate with GitHub Copilot Modernization
+# 🚀 Modernize with GitHub Copilot
 
 Let's explore an alternative approach to modernizing our eShopLite application using the GitHub Copilot Upgrade Assistant extension. 
 
@@ -196,4 +196,4 @@ By using GitHub Copilot's modernization capabilities, you've:
 The combination of framework upgrade, database migration, and frontend transformation would typically take days or weeks of manual work, but with GitHub Copilot's assistance, you've accomplished it in a fraction of the time!
 
 ---
-[← Previous: Setup Environment](../1-setup-your-environment/README.md) | [Next: Modernize with GitHub Copilot →](../3-modernize-with-github-copilot/README.md)
+[← Previous: Modernize .NET Applications](../README.md) | [Next: Modernize with GitHub Copilot →](../../3-modernize-with-github-copilot/README.md)
