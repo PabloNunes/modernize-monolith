@@ -157,15 +157,15 @@ After running the Upgrade Assistant, you will have a new project in your solutio
 - `dotnet restore` succeeds
 - `dotnet build` succeeds
 - App runs and product list renders
-- Images load from `wwwroot`
-- EF Core seeding creates expected sample data
 
-#### 🛠 Optional: Generate an EF Core Migration (If Using a Real Provider)
-If you later switch from InMemory to SQLite or SQL Server:
-```
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-```
+
+> 🪧**IMPORTANT**
+>
+> Check for the correct `using` directives in each file, especially for new namespaces introduced in .NET Core/.NET. Those are likely to have changed from the original .NET Framework versions, and when copying and pasting can lead to missing or incorrect usings.
+>
+> Please, change any outdated usings to match the new namespaces, we are using `eShopLite.StoreCore` as the root namespace, but yours may differ.
+>
+> Remember, some will be mismatched like the Models folder structure, using the `eShopLite.StoreFx.Models` namespace, those will be updated later.
 
 Now, you should be able to run the application and see the migrated eShopLite.StoreCore application running on .NET Core/.NET. If you wish, you could delete the old eShopLiteFx project, as it is no longer needed.
 

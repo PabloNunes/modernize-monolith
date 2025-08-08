@@ -39,6 +39,12 @@ app.UseAuthorization();
 app.UseSystemWebAdapters();
 
 app.MapDefaultControllerRoute();
-app.MapForwarder("/{**catch-all}", app.Configuration["ProxyTo"]).Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
+
+// Only set up the forwarder if ProxyTo is configured
+var proxyTo = app.Configuration["ProxyTo"];
+if (!string.IsNullOrEmpty(proxyTo))
+{
+    app.MapForwarder("/{**catch-all}", proxyTo).Add(static builder => ((RouteEndpointBuilder)builder).Order = int.MaxValue);
+}
 
 app.Run();
