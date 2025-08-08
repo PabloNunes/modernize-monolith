@@ -44,13 +44,13 @@ First, verify that the **upgrade_dotnet** tool is enabled in GitHub Copilot's Ag
 Let's start the modernization by invoking the GitHub Copilot **upgrade_dotnet** tool, which analyzes your solution and produces a prioritized plan (framework version gaps, architectural layering, dependency injection, async/await usage, nullability, analyzers) aligned with current .NET coding standards. Review the recommendations and apply them incrementally, using Copilot to implement refactors while keeping builds and tests green.
 
 1. **Right-click on your solution** in Solution Explorer
-1. Select **"Upgrade with Copilot"** from the context menu
+1. Select **"Upgrade with Copilot"** from the context menu or use the default **Copilot Chat**
 
 ![Upgrade with Copilot Menu](./images/upgrade-with-copilot-menu.png)
 
-1. When prompted to select a version or provide context, do not select a version. Because we did already the migration in the previous section, here, we are aiming to modernize the application architecture and codebase.
+3. When prompted to select a version or provide context, do not select a version. Because we did already the migration in the previous section, here, we are aiming to modernize the application architecture and codebase.
 
-41 Paste the following comprehensive modernization request:
+4. Paste the following comprehensive modernization request:
 
 ```plaintext
 I am working on a project that has recently been upgraded from .NET Framework to .NET 9. I need help modernizing the architecture and refactoring the codebase to align with .NET 9 best practices. Please assist with the following tasks:
@@ -66,6 +66,10 @@ Replace the existing SQLExpress database with SQLite. Update connection strings 
 ```
 
 ![Copilot Modernization Request](./images/copilot-modernization-request.png)
+
+> 🪧**IMPORTANT**
+>
+> If the request stops in the middle of a task, you can always ask Copilot to continue by saying "continue" or "please continue."
 
 ## 📝 Modernization steps
 

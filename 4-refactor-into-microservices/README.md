@@ -63,7 +63,7 @@ Before starting, ensure you have:
 
    ![MCP servers added](./images/refactor-into-microservices-02.png)
 
-   > **NOTE**: It might not be appearing at the first time. In this case, close Visual Studio and reopen it.
+   > **NOTE**: It might not be appearing at the first time. In this case, close Visual Studio and reopen it. If this fails, create a new Copilot chat window.
 
 1. Enter the following prompt for migration.
 
@@ -133,9 +133,15 @@ Althouth the `eShopLite.Store` app has been modernized, it is still monolith. Fo
 
 1. Once the separation to microservices is complete, build the entire solution, run all the apps and verify whether everything works well or not.
 
+> 🪧**IMPORTANT**
+>
+> You may need to import the Projects it generates into your solution.
+>
+> You can do this by right-clicking on the solution in Solution Explorer and selecting "Add" > "Existing Project..." to locate and add the new projects.
+
 ### ⛓️‍💥 Delete `eShopLite.StoreCore`
 
-`eShopLite.StoreCore` has now been mondernized to `eShopLite.Store`, followed by being split into three microservices &ndash; `eShopLite.Store` for UI frontend, `eShopLite.Products` for product API and `eShopLite.StoreInfo` for store info API.
+`eShopLite.StoreCore` has now been modernized to `eShopLite.Store`, followed by being split into three microservices &ndash; `eShopLite.Store` for UI frontend, `eShopLite.Products` for product API and `eShopLite.StoreInfo` for store info API.
 
 Therefore, we don't need `eShopLite.StoreCore` any longer. Remove it from the solution.
 
