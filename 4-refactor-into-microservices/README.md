@@ -141,7 +141,7 @@ Althouth the `eShopLite.Store` app has been modernized, it is still monolith. Fo
 
 ### ⛓️‍💥 Delete `eShopLite.StoreCore`
 
-`eShopLite.StoreCore` has now been mondernized to `eShopLite.Store`, followed by being split into three microservices &ndash; `eShopLite.Store` for UI frontend, `eShopLite.Products` for product API and `eShopLite.StoreInfo` for store info API.
+`eShopLite.StoreCore` has now been modernized to `eShopLite.Store`, followed by being split into three microservices &ndash; `eShopLite.Store` for UI frontend, `eShopLite.Products` for product API and `eShopLite.StoreInfo` for store info API.
 
 Therefore, we don't need `eShopLite.StoreCore` any longer. Remove it from the solution.
 
