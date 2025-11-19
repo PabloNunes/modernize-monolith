@@ -27,7 +27,29 @@ Antes de começar, certifique-se de ter:
 
 - ✅ GitHub Copilot instalado e ativado no Visual Studio
 - ✅ A extensão GitHub Copilot Modernization for .NET instalada
-- ✅ Projeto inicial aberto (3-modernize-with-github-copilot/StartSample)
+- ✅ Projeto inicial aberto (veja instruções abaixo)
+
+### Abrindo o Projeto Inicial
+
+1. **Localize o Projeto**
+
+   Navegue até a pasta de amostras do workshop:
+   ```
+   translation/samples/03-modernize-copilot-start/
+   ```
+   
+   > **💡 Dica**: Esta é uma cópia da amostra original localizada em `3-modernize-with-github-copilot/StartSample/`. Você também pode usar a amostra original se preferir.
+
+2. **Abra a Solution**
+
+   Abra o arquivo `eShopLite.sln` no Visual Studio.
+
+3. **Explore a Estrutura**
+
+   Você verá um projeto .NET 9 que já foi atualizado, mas ainda usa padrões legados:
+   - `eShopLite.StoreCore`: Projeto .NET 9 a ser modernizado
+   - Código que precisa de refatoração
+   - Oportunidades para aplicar melhores práticas
 
 ### Verificar Modo de Agente do GitHub Copilot
 

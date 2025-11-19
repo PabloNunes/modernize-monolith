@@ -90,14 +90,16 @@ Antes de começar, certifique-se de que você tem:
 
 1. **Localize o Projeto**
 
-   Navegue até a pasta do workshop:
+   Navegue até a pasta de amostras do workshop:
    ```
-   modernize-monolith/2-upgrade-dotnet/2-upgrade-with-ghcp-modernization-app/StartingSample/
+   translation/samples/02-upgrade-dotnet-start/
    ```
+   
+   > **💡 Dica**: Esta é uma cópia da amostra original localizada em `2-upgrade-dotnet/2-upgrade-with-ghcp-modernization-app/StartingSample/`. Você também pode usar a amostra original se preferir.
 
 2. **Abra a Solution**
 
-   Abra o arquivo `eShopLite.sln` no Visual Studio.
+   Abra o arquivo `eShopLiteFx.sln` no Visual Studio.
 
 3. **Explore a Estrutura**
 

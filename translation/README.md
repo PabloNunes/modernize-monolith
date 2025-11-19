@@ -51,8 +51,19 @@ Recapitulação, próximos passos e recursos adicionais para continuar sua jorna
 
 1. Clone este repositório
 2. Siga a seção [Configurando o Ambiente](./01-configurando-ambiente.md) para preparar seu ambiente
-3. Avance pelos módulos na ordem apresentada
-4. Pratique os exercícios em cada seção
+3. Acesse a pasta [samples/](./samples/) para obter as amostras iniciais de código
+4. Avance pelos módulos na ordem apresentada
+5. Pratique os exercícios em cada seção
+
+## 📦 Amostras de Código
+
+As amostras iniciais (starter samples) para cada módulo estão disponíveis na pasta [samples/](./samples/):
+
+- **[02-upgrade-dotnet-start/](./samples/02-upgrade-dotnet-start/)** - Aplicação .NET Framework 4.8 para o Módulo 2
+- **[03-modernize-copilot-start/](./samples/03-modernize-copilot-start/)** - Aplicação .NET 9 para modernização no Módulo 3
+- **[04-ai-capabilities-start/](./samples/04-ai-capabilities-start/)** - Aplicação com .NET Aspire para o Módulo 4
+
+Consulte o [README das amostras](./samples/README.md) para instruções detalhadas de uso.
 
 ## 💡 Dicas para o Workshop
 

@@ -35,6 +35,38 @@ Nossa implementação de chatbot de IA segue uma arquitetura robusta para nossa 
 
 ## 🛠️ Guia de Implementação
 
+### Preparação: Abrir o Projeto Inicial
+
+Antes de começar a implementação, certifique-se de ter o projeto correto aberto:
+
+1. **Localize o Projeto**
+
+   Navegue até a pasta de amostras do workshop:
+   ```
+   translation/samples/04-ai-capabilities-start/
+   ```
+   
+   > **💡 Dica**: Esta é uma cópia da amostra original localizada em `8-add-ai-capabilities/StartSample/`. Você também pode usar a amostra original se preferir.
+
+2. **Abra a Solution**
+
+   Abra o arquivo `eShopLite.sln` no Visual Studio.
+
+3. **Explore a Estrutura**
+
+   Você verá uma aplicação modernizada com arquitetura de microserviços usando .NET Aspire:
+   - `eShopLite.AppHost`: Host do .NET Aspire
+   - `eShopLite.Store`: Aplicação frontend Blazor (onde adicionaremos o chatbot)
+   - `eShopLite.Products`: API de produtos
+   - `eShopLite.StoreInfo`: API de informações da loja
+   - `eShopLite.ServiceDefaults`: Configurações compartilhadas
+
+4. **Verifique os Pré-requisitos**
+
+   - ✅ GitHub Copilot instalado e ativado
+   - ✅ .NET 9 SDK instalado
+   - ✅ Docker Desktop rodando (para .NET Aspire)
+
 Vamos usar o GitHub Copilot com prompts otimizados para simplificar a implementação do chatbot de IA. Esta abordagem aproveita o modo agente para criar soluções abrangentes com intervenção manual mínima.
 
 ### Etapa 1: Configuração Completa do Backend
